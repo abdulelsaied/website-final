@@ -36,7 +36,7 @@ var TxtType = function(el, toRotate, period, tickCount) {
         } else if (this.isDeleting && this.txt === '') {
         this.isDeleting = false;
         this.loopNum++;
-        delta = 500;
+        delta = 100;
         }
 
         setTimeout(function() {
