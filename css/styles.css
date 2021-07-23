@@ -1,6 +1,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #efe9ae;
   margin: 0;
 }
 
@@ -13,6 +14,7 @@ h1 {
 
 #top-bar {
   font-family: 'Poppins', sans-serif;
+  background-color: #fff1e6;
 }
 
 .container-fluid {
@@ -53,7 +55,7 @@ h1 {
 
 #introduction-bar {
   /* background-color: #ee8073; */
-  background-color: #5398ed;
+  background-color: #cddafd;
   text-align: center;
   padding: 250px 0px;
 }
@@ -80,19 +82,19 @@ hr {
 
 /* Description */
 
-#footy-project {
+#dfg-project {
   text-align: center;
-  background-color: #F6Af57;
+  background-color: #bee1e6;
   font-family: 'Poppins', sans-serif;
-  line-height: 3;
+  line-height: 1;
   color: white;
 }
 
 #rendezview-project {
   text-align: center;
-  background-color: black;
+  background-color: #dfe7fd;
   font-family: 'Poppins', sans-serif;
-  line-height: 3;
+  line-height: 1;
   color: white;
 }
 
@@ -129,11 +131,12 @@ hr {
 .words {
   font-family: 'Poppins Light 300', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 680;
   padding: 0 0 40px;
   width: 50%;
   text-align: center;
   margin: auto;
+  font-size: 1.75em;
 }
 
 .mac-pics {
@@ -147,20 +150,20 @@ hr {
 /* Projects  */
 
 #website-project {
-  background-color: #ED6853;
+  background-color: #fad2e1;
   margin: auto;
   text-align: center;
-  line-height: 3;
+  line-height: 1;
   color: white;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 50px;
 }
 
 #stock-project {
-  background-color: #53EDA8;
+  background-color: #cdeac0;
   margin: auto;
   text-align: center;
-  line-height: 3;
+  line-height: 1;
   color: white;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 50px;
@@ -169,7 +172,7 @@ hr {
 /* Leadership and Activities */
 
 #leadership {
-  background-color: #white;
+  background-color: #efe9ae;
   color: black;
   margin: auto;
   line-height: 2.5;
@@ -177,9 +180,6 @@ hr {
   width: 50%;
 }
 
-#leadership p{
-  /* vertical-align: text-top; */
-}
 
 .row {
   margin-bottom: 60px;
@@ -188,7 +188,7 @@ hr {
 /* Skills Cards */
 
 #skills {
-  background-color: #white;
+  background-color: #fec89a;
   margin: auto;
   text-align: center;
   line-height: 3;
@@ -235,19 +235,19 @@ hr {
 }
 
 .card-blue::after {
-  background-color: #5398ed;
+  background-color: #efe9ae;
 }
 
 .card-red::after {
-  background-color: #ED6853;
+  background-color: #ff928b;
 }
 
 .card-green::after {
-  background-color: #53EDA8;
+  background-color: #cdeac0;
 }
 
 .card-yellow::after {
-  background-color: #F6Af57;
+  background-color: #ffac81;
 }
 
 .card-lower {
@@ -256,7 +256,8 @@ hr {
 
 
 #contact-me {
-  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
+  background: linear-gradient(-45deg, #cddafd 0%, #dfe7fd 14%, #bee1e6 28%, #e2ece9 42%, #fad2e1 56%, #fde2e4 70%, #eae4e9 100%);;
+  /* background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);; */
   background-size: 400% 400%;
   animation: animation 7.5s ease-in-out infinite;
   color: white;
@@ -301,10 +302,12 @@ hr {
 
 .code-button {
   color: black;
-  background-color: white;
+  background-color: #cddafd;
   margin: auto;
   display: block;
-  width: 18%;
+  width: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 20px;
   justify-content: center;
 }
