@@ -11,7 +11,7 @@ var TxtType = function(el, toRotate, period, tickCount) {
 
     TxtType.prototype.tick = function() {
         this.tickCount++;
-        if (this.tickCount === 166) {
+        if (this.tickCount === 162) {
           return;
         }
         var i = this.loopNum % this.toRotate.length;
