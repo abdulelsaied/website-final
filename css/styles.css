@@ -98,6 +98,13 @@ hr {
   color: white;
 }
 
+#chesskey-project {
+  text-align: center;
+  background-color: #FF5733;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1;
+  color: white;
+}
 
 
 .typewrite {
